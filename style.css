@@ -1,0 +1,89 @@
+body {
+    animation: fadeOut 2s;
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: rgb(255, 98, 70);
+    background: url("https://papers.co/wallpaper/papers.co-vk55-android-lollipop-material-design-pattern-36-3840x2400-4k-wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 760px;
+}
+
+#content {
+    margin-top:120px;
+    margin-bottom: 120px;
+    align-content: center;
+    justify-content: center;
+}
+#card {
+    display: flex;
+    min-width: 320px;
+    min-height: 540px;
+    background: rgb(255, 255, 255);
+    border: 10pt;
+    border-radius: 8pt;
+    align-content: center;
+    justify-content: center;
+    
+
+}
+#dp {
+    background: url("https://raw.githubusercontent.com/znapci/znapci.github.io/simple/images/android.gif");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 220px;
+    width: 220px;
+    margin: 30px;
+    border:10px;
+    border-radius: 00px;
+    position: absolute;
+}
+
+#text {
+    position: relative;
+    max-width: 180px;
+    font-size: 18px;
+    font-family: "Indie Flower";
+    text-align: center;
+    top: 300px;
+}
+#links {
+    display: inline-flex;
+    position: absolute;
+    top: 580px;
+}
+.link {
+    height: 28px; 
+    width: 28px;
+    margin: 4px;
+}
+.link:hover {
+    animation: fadeIn 0.7s;
+}
+#first {
+    background: url("https://image.flaticon.com/icons/svg/733/733609.svg");
+    background-size: cover;
+    margin: 10px;
+
+}
+#second {
+    background: url("https://image.flaticon.com/icons/svg/2111/2111341.svg");
+    background-size: cover;
+    margin: 10px;
+}
+#third {
+    background: url("https://image.flaticon.com/icons/svg/2089/2089181.svg");
+    background-size: cover;
+    margin: 10px;
+}
+@keyframes fadeIn {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+ } 
+ @keyframes fadeOut {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ } 
