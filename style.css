@@ -4,8 +4,7 @@ body {
     display: flex;
     align-content: center;
     justify-content: center;
-    background: rgb(255, 98, 70);
-    background: url("https://papers.co/wallpaper/papers.co-vk55-android-lollipop-material-design-pattern-36-3840x2400-4k-wallpaper.jpg");
+    background: url("https://images.unsplash.com/photo-1605209820720-272dff2155e7?&auto=format&w=1920");
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 760px;
