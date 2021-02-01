@@ -29,7 +29,7 @@ body {
 
 }
 #dp {
-    background: url("https://raw.githubusercontent.com/znapci/znapci.github.io/main/images/android.gif");
+    background: url("./images/android.gif");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
